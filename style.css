@@ -90,17 +90,34 @@ header button svg {
   height: 100vh;
 }
 
+
 @media screen and (max-width: 600px) {
   header {
     padding: 5px;
   }
+  header h1{
+  margin-left: -50%;
+  animation: header-text-animation 2s ease-in-out forwards;
+}
+@keyframes header-text-animation {
+  to{
+      margin-left: 0%;
+  }
+}
   header button {
     width: 30px;
     height: 30px;
     background-color: #ffffff;
     border: none;
     border-radius: 50%;
+    margin-right: -13%;
+  animation: header-button-animation 2s ease-in-out forwards;
+}
+@keyframes header-button-animation {
+  to{
+      margin-right: 0%;
   }
+}
   header button svg {
     margin-top: -5px;
     color: #612734;

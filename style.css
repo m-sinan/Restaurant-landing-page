@@ -5,14 +5,33 @@
 }
 header{
     background-color: #612734;
+    padding:10px;
 }
 header button{
-    width: 30px;
-    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
     border: none;
     border-radius: 50%;
 }
 header button svg{
     margin-top: -5px;
     color: #612734;
+}
+@media screen and (max-width:600px) {
+    header{
+        padding: 5px;
+    }
+    header button{
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50%;
+}
+header button svg{
+    margin-top: -5px;
+    color: #612734;
+    width: 20px;
+}
 }

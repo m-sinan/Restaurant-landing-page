@@ -7,12 +7,32 @@ header {
   background-color: #612734;
   padding: 10px;
 }
+header h1{
+  margin-left: -15%;
+  animation: header-text-animation 2s ease-in-out forwards;
+}
+@keyframes header-text-animation {
+  to{
+      margin-left: 0%;
+  }
+}
 header button {
   width: 40px;
   height: 40px;
   background-color: #ffffff;
   border: none;
   border-radius: 50%;
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  z-index: 1;
+  margin-right: -4%;
+  animation: header-button-animation 2s ease-in-out forwards;
+}
+@keyframes header-button-animation {
+  to{
+      margin-right: 0%;
+  }
 }
 header button svg {
   margin-top: -5px;
@@ -23,7 +43,7 @@ header button svg {
 #section-one {
   background-color: #612734;
   width: 100%;
-  height: 100vh;
+  height: auto;
 }
 .s1-text-container {
   height: 50vh;
@@ -34,7 +54,7 @@ header button svg {
   justify-content: center;
 }
 .s1-text-container h2 {
-  font-size: 70px;
+  font-size: 90px;
   z-index: 1;
   color: #000;
   font-weight: bolder;
@@ -54,12 +74,20 @@ header button svg {
   overflow: hidden;
 }
 .image img {
-  width: 70%;
-  margin-left: 150px;
+  width: 60%;
+  margin-left: 180px;
   margin-top: 70px;
   border-radius: 50%;
   background-color: #39222269;
   box-shadow: 0px 0px 100px #392222b3;
+}
+
+/* section two */
+
+#section-two{
+  background-color: #612734;
+  width: 100%;
+  height: 100vh;
 }
 
 @media screen and (max-width: 600px) {

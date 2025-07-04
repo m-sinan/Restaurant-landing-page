@@ -1,37 +1,113 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-header{
-    background-color: #612734;
-    padding:10px;
+header {
+  background-color: #612734;
+  padding: 10px;
 }
-header button{
-    width: 40px;
-    height: 40px;
-    background-color: #ffffff;
-    border: none;
-    border-radius: 50%;
+header button {
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 50%;
 }
-header button svg{
-    margin-top: -5px;
-    color: #612734;
+header button svg {
+  margin-top: -5px;
+  color: #612734;
 }
-@media screen and (max-width:600px) {
-    header{
-        padding: 5px;
-    }
-    header button{
+
+/* section-one */
+#section-one {
+  background-color: #612734;
+  width: 100%;
+  height: 100vh;
+}
+.s1-text-container {
+  height: 50vh;
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.s1-text-container h2 {
+  font-size: 70px;
+  z-index: 1;
+  color: #000;
+  font-weight: bolder;
+}
+.s1-text-container p {
+  color: #000;
+}
+.s1-text-container button {
+  width: 100px;
+}
+.s1-text-container .image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 90vh;
+  overflow: hidden;
+}
+.image img {
+  width: 70%;
+  margin-left: 150px;
+  margin-top: 70px;
+  border-radius: 50%;
+  background-color: #39222269;
+  box-shadow: 0px 0px 100px #392222b3;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    padding: 5px;
+  }
+  header button {
     width: 30px;
     height: 30px;
     background-color: #ffffff;
     border: none;
     border-radius: 50%;
-}
-header button svg{
+  }
+  header button svg {
     margin-top: -5px;
     color: #612734;
     width: 20px;
-}
+  }
+
+  /* section one */
+
+  .s1-text-container h2 {
+    font-size: 40px;
+    z-index: 1;
+    color: #000;
+    font-weight: bolder;
+  }
+  .s1-text-container p {
+    font-size: 11px;
+    color: #000;
+  }
+  .s1-text-container button {
+    width: 100px;
+  }
+  .s1-text-container .image {
+    width: 50%;
+    height: 55%;
+    position: absolute;
+    top: 55px;
+    right: 0;
+    overflow: hidden;
+  }
+  .image img {
+    width: 150%;
+    height: 80%;
+    margin-left: 13%;
+    margin-top: 0px;
+      background-color: #39222269;
+  box-shadow: 0px 0px 10px #392222b3;
+  }
 }

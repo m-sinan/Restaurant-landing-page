@@ -254,4 +254,9 @@ header button svg {
   margin-top: 20px;
   border-radius: 10px;
 }
+#section-three .s3-inner-container{
+  padding: 10px;
+  padding-top:100%;
+  animation: s3-inner-container-animation 1s ease-in-out 2s forwards;
+}
 }

@@ -58,7 +58,7 @@ header button svg {
   z-index: 1;
   color: #000;
   font-weight: bolder;
-  margin-left: -60%;
+  margin-left: -100%;
   animation: s1-text-animation 1s ease-in-out 1s forwards;
 }
 @keyframes s1-text-animation {
@@ -96,8 +96,8 @@ header button svg {
   margin-left: 180px;
   margin-top: 70px;
   border-radius: 50%;
-  background-color: #39222269;
-  box-shadow: 0px 0px 100px #392222b3;
+  background-color: #634646b3;
+  box-shadow: 0px 0px 100px #634646b3;
   margin-left: 100%;  
   animation: header-image-animation 2s ease-in-out 1.5s forwards;
 }
@@ -146,7 +146,27 @@ header button svg {
 }
 .item-container .item img{
   width: 80%;
+    background-color: #634646b3;
+  box-shadow: 0px 0px 100px #634646b3;
+  border-radius: 50%;
 }
+
+/* section-three */
+#section-three{
+  height: auto;
+  width: 100%;
+  background-color: #612734;
+}
+#section-three .s3-inner-container{
+  padding: 10px;
+}
+.img-container img{
+  width: 80%;
+  height: 70%;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
 @media screen and (max-width: 600px) {
   header {
     padding: 5px;
@@ -220,17 +240,11 @@ header button svg {
   }
 }
 
-/* section two */
-
-#section-two {
-    background-color: #612734;
-    width: 100%;
-    padding-top: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#section-two .item-container {
-  padding: 10%;
+/* section-three */
+.img-container img{
+  width: 90%;
+  height: 70%;
+  margin-top: 20px;
+  border-radius: 10px;
 }
 }

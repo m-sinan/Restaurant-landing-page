@@ -159,6 +159,13 @@ header button svg {
 }
 #section-three .s3-inner-container{
   padding: 10px;
+  padding-top:50%;
+  animation: s3-inner-container-animation 1s ease-in-out forwards;
+}
+@keyframes s3-inner-container-animation {
+  to{
+  padding-top: 0%;
+  }
 }
 .img-container img{
   width: 80%;

@@ -38,6 +38,7 @@ header .hero-container{
     width: 50%;
     padding: 1rem 0rem;
     border-radius: 1.5rem 1.5rem 0rem 1.5rem;
+    color: black;
 }
 .hero-container .hero-image{
     display: flex;

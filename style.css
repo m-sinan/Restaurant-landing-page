@@ -35,8 +35,8 @@ header .hero-container{
 .view-menu{
     border: none;
     margin-top: 4rem;
-    width: 50%;
-    padding: 1rem 0rem;
+    width: 40%;
+    padding: .5rem 0rem;
     border-radius: 1.5rem 1.5rem 0rem 1.5rem;
     color: black;
 }
@@ -45,7 +45,7 @@ header .hero-container{
     justify-content: end;
 }
 .hero-container .hero-image img{
-    width: 35rem;
+    width: 30rem;
 }
 
 /* header resposive */
@@ -80,7 +80,7 @@ header {
 
 /* hero container responsive */
 
-@media (max-width:769px) {
+@media (max-width:426px) {
 
     header .hero-container {
     padding:0;
@@ -94,10 +94,12 @@ header {
     display: none;
 }
 .hero-heading .view-menu{
-    margin-top: 1rem;
-    width: 7rem;
-    padding: 0;
-    border-radius: .5rem .5rem 0rem .5rem;
+        margin-top: 1rem;
+        width: 7rem;
+        padding: .2rem;
+        border-radius: .5rem .5rem 0rem .5rem;
+        font-size: .6rem;
+    }
 }
 .hero-container .hero-image{
     display: flex;
@@ -106,6 +108,34 @@ header {
 }
 .hero-container .hero-image img{
     width: 16rem;
+}
+}
+@media (min-width:426px) and (max-width:769px) {
+
+    header .hero-container {
+    padding:0;
+    margin-top:0;
+}
+.hero-heading .heading-top{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.heading-top br{
+    display: none;
+}
+.hero-heading .view-menu{
+    margin-top: 1rem;
+    width: 7rem;
+    padding: 0;
+    border-radius: .5rem .5rem 0rem .5rem;
+}
+.hero-container .hero-image{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+.hero-container .hero-image img{
+    width: 18rem;
 }
 }
 

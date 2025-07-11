@@ -109,6 +109,14 @@ header .hero-container {
   align-items: center;
 }
 
+.s1-left-section{
+  color: white;
+}
+.s1-left-section p{
+  color: rgb(192, 190, 190);
+  font-size: 1rem;
+}
+
 /* header resposive */
 
 @media (max-width: 330px) {
@@ -247,8 +255,7 @@ header .hero-container {
     width: 100%;
     height: 9.6rem;
     border-radius: 5%;
-    margin-bottom: 3rem;
-  }
+    }
   .s1-right-section .card img {
     width: 7rem;
     margin-top: -4rem;

@@ -153,6 +153,38 @@ header .hero-container {
   font-size: 1rem;
 }
 
+#s-two{
+  margin-top: 8rem;
+}
+.map-section iframe{
+  border-radius: 5%;
+}
+input{
+  background-color: #efecec;
+  border: none;
+  border-radius: 0.5rem;
+}
+form button{
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+form button:hover{
+  background-color: var(--bg);
+  color: white;
+  box-shadow: 0px 30px 50px 0px #0000009e;
+}
+form button:active{
+  transform: translateY(4px);
+}
+/* footer */
+footer {
+  background-color: #612734f8;
+  color: white;
+}
+
 /* header resposive */
 
 @media (max-width: 330px) {
@@ -305,4 +337,21 @@ header .hero-container {
     justify-content: center;
     align-items: center;
   }
+  #s-two {
+    display: flex;
+    justify-content: center;
+  }
+  .map-section{
+    padding: 0;
+  }
+  .map-section iframe{
+  border-radius: 5%;
+  width: 100%;
+  height: 20rem;
+}
+input{
+  background-color: #efecec;
+  border: none;
+  border-radius: 0.5rem;
+}
 }
